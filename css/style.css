@@ -1,0 +1,199 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand {
+  font-size: 22px;
+  color: #3e3e3e;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  font-size: 22px;
+  color: #3e3e3e;
+  font-weight: 700;
+}
+.navbar {
+  --bs-navbar-padding-y: 1.5rem;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e3e3e;
+  margin-left: 30px;
+  transition: color 0.3s;
+}
+.nav-link.active:hover,
+.nav-link:hover {
+  color: #3f87f5;
+}
+.carousel-item img {
+  height: 70vh;
+  position: relative;
+}
+.carousel-caption {
+  width: 50%;
+  margin: 0 auto 40px auto;
+}
+.carousel-caption h5 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.carousel-caption p {
+  font-size: 16px;
+  width: 75%;
+  margin: 0 auto 17px auto;
+}
+.carousel-caption button {
+  padding: 10px 40px;
+}
+.section-heading {
+  font-size: 38px;
+  font-weight: 700;
+  color: #0a0826;
+}
+.abt-content .abt-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+.toast:not(.show) {
+  display: block;
+}
+.about-us .our-toast {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.our-toast {
+  padding-left: 20px;
+}
+.our-toast i {
+  margin-right: 10px;
+  color: #3f87f5;
+  font-size: 24px;
+}
+.card-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #231d4f;
+}
+.card-sub-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #231d4f;
+}
+.package-item {
+  margin-top: 13px;
+}
+.package-desc,
+.package-item ul li span {
+  color: #848199;
+  font-size: 15px;
+  font-weight: 400;
+}
+.package-item ul li {
+  margin-bottom: 10px;
+}
+.package-item .icon-small {
+  width: 20px;
+  height: 20px;
+  background: rgba(82, 67, 194, 0.103693);
+  border-radius: 50%;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+}
+.package-item ul li i {
+  color: #5243c2;
+}
+.package-button {
+  margin-top: 30px;
+}
+.package-button button {
+  padding: 10px 30px;
+  background: #f496d233;
+  width: 100%;
+  border-radius: 30px;
+}
+.price-card .hot-deal {
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  transform: scale(1);
+  color: #fff;
+}
+.price-card .hot-deal .card-title,
+.price-card .hot-deal .card-sub-title,
+.price-card .hot-deal .package-desc,
+.price-card .hot-deal .package-item ul li i,
+.price-card .hot-deal .package-item ul li span {
+  color: #fff;
+}
+.price-card .hot-deal .package-button button {
+  background: #fff;
+}
+.hot {
+  position: absolute;
+  top: -20px;
+  right: 30px;
+}
+.hot span {
+  background: #ff4e4e;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 24px;
+  display: inline-block;
+}
+.card-text {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 999;
+  transition: color 0.3s;
+}
+.image-section h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0c1920;
+  margin-top: 20px;
+  text-transform: capitalize;
+  z-index: 999;
+}
+.image-section p {
+  color: #747474;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 999;
+  transition: color 0.3s;
+}
+.card-wrapper {
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background-color: #5243c2da;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 10px;
+  transition: height 0.4s;
+}
+.card-wrapper:hover .card-text {
+  color: #fff;
+}
+.card-wrapper:hover::before {
+  height: 100%;
+}
+.card-wrapper:hover .image-section p {
+  color: #fff;
+}
